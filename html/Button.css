@@ -1,0 +1,38 @@
+input {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  /* py-3 */
+  padding-left: 1rem;
+  /* px-4 */
+  padding-right: 1rem;
+  /* px-4 */
+  background-color: #3f51b5;
+  /* bg-indigo-500 */
+  border-radius: 0.25rem;
+  /* rounded */
+  font-weight: 600;
+  /* font-semibold */
+  color: #FFF;
+  /* text-slate-50 */
+  font-size: 0.875rem;
+  /* text-sm */
+  width: 100%;
+  /* w-full */
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+  border: none;
+  /* transition-colors */
+}
+
+/* Hover styles */
+input:hover {
+  background-color: #4a148c;
+  /* hover:bg-indigo-700 */
+}
+
+/* Focus styles */
+input:focus {
+  outline: 2px solid white;
+  /* focus:ring-2 ring-white */
+  outline-offset: 2px;
+  /* default for focus:ring-2 */
+}
